@@ -1,0 +1,155 @@
+# ML-Master Configuration File
+
+# Framework Settings
+framework:
+  name: "ML-Master"
+  version: "1.0.0"
+  debug: false
+  log_level: "INFO"
+
+# LLM Configuration - Azure OpenAI
+llm:
+  provider: "azure_openai"
+  model: "o3"
+  api_key: "${AZURE_OPENAI_API_KEY}"
+  max_tokens: 4096
+  temperature: 0.1
+  timeout: 60
+
+# Reasoning Settings - Azure OpenAI
+reasoning:
+  # Azure OpenAI Configuration
+  azure_endpoint: "https://it-li-m9l4hi9c-eastus2.cognitiveservices.azure.com/"
+  model_name: "o3"
+  deployment: "o3"
+  subscription_key: "BgUGaXILpbNQLsVqacx83Xya5QVzScc3BhTbSAqMldgzELqeECriJQQJ99BDACHYHv6XJ3w3AAAAACOGTdOY"
+  api_version: "2024-12-01-preview"
+  
+  # Steerable Reasoning
+  enable_adaptive_memory: true
+  memory_integration_method: "embedding"  # Options: embedding, concatenation
+  
+  # Context Management
+  max_context_length: 8000
+  context_compression: true
+  sibling_node_inclusion: true
+  
+  # Reasoning Enhancement
+  enable_chain_of_thought: true
+  enable_self_verification: true
+  reasoning_depth: 3
+  
+  # Content Type Settings
+  enable_content_type_detection: true
+  default_content_type: "code"
+
+# Content Processing Settings
+content_processing:
+  # Content Type Support
+  enable_code_generation: true
+  enable_markdown_generation: true
+  enable_plain_text_generation: true
+  enable_structured_data_generation: true
+  
+  # Content Validation
+  enable_content_validation: true
+  enable_content_formatting: true
+  
+  # Code Processing
+  code_languages: ["python", "javascript", "java", "c++", "sql", "html", "css"]
+  code_execution_enabled: true
+  
+  # Markdown Processing
+  markdown_extensions: ["md", "markdown"]
+  enable_markdown_validation: true
+  
+  # Structured Data Processing
+  structured_data_formats: ["json", "yaml", "xml", "csv"]
+  enable_schema_validation: true
+
+# Exploration Settings
+exploration:
+  # MCTS Parameters
+  uct_constant: 1.414  # Exploration-exploitation trade-off
+  max_iterations: 1000
+  max_depth: 50
+  
+  # Parallel Execution
+  num_workers: 3
+  max_parallel_branches: 5
+  
+  # Stopping Conditions
+  improvement_threshold: 0.001
+  max_failed_improvements: 3
+  max_debug_depth: 20
+  max_debug_attempts: 3
+  
+  # Node Expansion
+  draft_enabled: true
+  debug_enabled: true
+  improve_enabled: true
+
+# Memory Settings
+memory:
+  max_memory_size: 1000
+  memory_decay_factor: 0.95
+  insight_extraction_threshold: 0.7
+  context_window_size: 10
+  
+  # Memory Types
+  execution_feedback: true
+  reasoning_insights: true
+  performance_metrics: true
+  content_snippets: true
+
+# Execution Environment
+environment:
+  # Code Execution
+  execution_timeout: 300  # seconds
+  memory_limit: "4GB"
+  cpu_limit: 2
+  
+  # File Management
+  temp_dir: "./temp"
+  output_dir: "./outputs"
+  cache_dir: "./cache"
+  
+  # Security
+  sandbox_execution: true
+  allow_network_access: false
+  
+  # Content Processing
+  enable_content_validation: true
+  enable_content_formatting: true
+
+# Benchmark Settings
+benchmark:
+  name: "MLE-Bench"
+  dataset_path: "./benchmarks/mle_bench"
+  evaluation_metrics: ["accuracy", "f1_score", "auc"]
+  
+  # Time Constraints
+  max_execution_time: 43200  # 12 hours in seconds
+  checkpoint_interval: 3600  # 1 hour
+  
+  # Submission
+  submission_format: "csv"
+  validation_split: 0.2
+
+# Monitoring and Logging
+monitoring:
+  enable_metrics: true
+  metrics_interval: 60  # seconds
+  enable_profiling: false
+  
+  # Logging
+  log_file: "./logs/ml_master.log"
+  log_rotation: "1 day"
+  log_retention: "7 days"
+
+# Performance Optimization
+optimization:
+  enable_caching: true
+  cache_ttl: 3600  # 1 hour
+  enable_compression: true
+  batch_size: 10 

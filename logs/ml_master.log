@@ -1,0 +1,205 @@
+2025-07-05 19:08:10 | INFO     | __main__:solve_task:97 - Initializing ML-Master framework...
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:08:10 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:08:10 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:08:10 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:08:10 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:08:10 | INFO     | __main__:solve_task:113 - Starting task solution...
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:solve_task:87 - Starting task: Search current availability at RPM Steak for 8 people this Thursday at 7pm, check real-time pricing,...
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:solve_task:92 - Auto-detected content type: plain_text
+2025-07-05 19:08:10 | ERROR    | __main__:solve_task:127 - Error during task execution: TreeSearch.initialize_search() takes 2 positional arguments but 3 were given
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:08:10 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:08:10 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:08:10 | ERROR    | __main__:main:392 - Task failed: TreeSearch.initialize_search() takes 2 positional arguments but 3 were given
+2025-07-05 19:08:46 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:08:46 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:08:46 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:08:46 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:08:46 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:08:46 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:08:46 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:08:46 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:08:59 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:08:59 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:08:59 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:08:59 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:09:19 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:09:19 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:09:19 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:09:19 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:09:19 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:09:19 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:09:19 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:09:19 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:09:29 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:09:29 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:09:29 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:09:29 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:22:03 | INFO     | __main__:solve_task:97 - Initializing ML-Master framework...
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:22:03 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:22:03 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:22:03 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:22:03 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:22:03 | INFO     | __main__:solve_task:113 - Starting task solution...
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:solve_task:87 - Starting task: Debug and optimize this broken machine learning pipeline: The code has syntax errors, logical bugs, ...
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:solve_task:92 - Auto-detected content type: code
+2025-07-05 19:22:03 | ERROR    | __main__:solve_task:127 - Error during task execution: TreeSearch.initialize_search() takes 2 positional arguments but 3 were given
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:22:03 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:22:03 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:22:03 | ERROR    | __main__:main:392 - Task failed: TreeSearch.initialize_search() takes 2 positional arguments but 3 were given
+2025-07-05 19:22:18 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:22:18 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:22:18 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:22:18 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:22:18 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:22:18 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:22:18 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:22:18 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:22:57 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:22:57 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:22:57 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:22:57 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:23:02 | INFO     | __main__:solve_task:97 - Initializing ML-Master framework...
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:23:02 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:23:02 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:23:02 | INFO     | __main__:solve_task:113 - Starting task solution...
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:solve_task:87 - Starting task: Create a customer service chatbot that can handle multiple conversation turns. The bot should rememb...
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:solve_task:92 - Auto-detected content type: plain_text
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:initialize_search:100 - Initialized search tree with root node root_c72ab345
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:run_search:116 - Starting MCTS search with max_iterations=30
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:_log_progress:416 - Iteration 0/30 (Time: 0.0s, Best: -inf)
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99_draft_29d0b482
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99_draft_29d0b482: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.action_executor:execute_action:84 - Executing draft action on node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99_draft_29d0b482_draft_7c1cd7bf
+2025-07-05 19:23:02 | ERROR    | core.exploration.tree_search:_simulation:303 - Error in simulation for node root_c72ab345_draft_ffdc49b2_draft_9915a199_draft_a934c21f_draft_9cf5da38_draft_e9ae797d_draft_83b33d68_draft_9fa4a498_draft_603f9e10_draft_37573f95_draft_5f848e30_draft_ca1d3165_draft_01a501fa_draft_5c2f05ae_draft_4d4c56ea_draft_3155ac8d_draft_95a49cec_draft_00c07def_draft_332c10e6_draft_8619688a_draft_60d49438_draft_02552049_draft_427cfa6e_draft_e763ea71_draft_4fe6bf62_draft_90a1c9be_draft_0a8a6be2_draft_0ecf5a99_draft_29d0b482_draft_7c1cd7bf: 'NodeSolution' object has no attribute 'content'
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:run_search:148 - Search completed. Best score: -inf
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:solve_task:111 - Task completed in 0.00s
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:23:02 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:23:02 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:23:02 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:23:09 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:23:09 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:23:09 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:23:09 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:23:09 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:23:09 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:23:09 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:23:09 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:23:37 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:23:37 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:23:37 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:23:37 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:23:46 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:23:46 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:23:46 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:23:46 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:23:46 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:23:46 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:23:46 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:23:46 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:24:32 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:24:32 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:24:32 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:24:32 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:34:59 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:34:59 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:34:59 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:34:59 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:34:59 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:34:59 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:34:59 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:34:59 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:35:51 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:35:51 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:35:51 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:35:51 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:37:37 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:37:37 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:37:37 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:37:37 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:37:37 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:37:37 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:37:37 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:37:37 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:37:54 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:37:54 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:37:54 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:37:54 | INFO     | __main__:main:385 - Task completed successfully!
+2025-07-05 19:42:35 | INFO     | __main__:generate_content:137 - Initializing ML-Master framework...
+2025-07-05 19:42:35 | INFO     | core.integration.ml_master:__init__:40 - Initializing ML-Master components...
+2025-07-05 19:42:35 | INFO     | core.memory.adaptive_memory:__init__:83 - Initialized AdaptiveMemory with max_size=1000
+2025-07-05 19:42:35 | INFO     | core.reasoning.steerable_reasoner:__init__:92 - Initialized SteerableReasoner with Azure OpenAI o3 (SSL verification disabled)
+2025-07-05 19:42:35 | INFO     | core.exploration.action_executor:__init__:67 - Initialized ActionExecutor with timeout=300s
+2025-07-05 19:42:35 | INFO     | core.exploration.tree_search:__init__:72 - Initialized TreeSearch with 3 workers
+2025-07-05 19:42:35 | INFO     | core.integration.ml_master:__init__:68 - ML-Master initialization completed
+2025-07-05 19:42:35 | INFO     | __main__:generate_content:153 - Generating content...
+2025-07-05 19:42:52 | INFO     | core.integration.ml_master:cleanup:386 - Cleaning up ML-Master resources
+2025-07-05 19:42:52 | INFO     | core.exploration.tree_search:cleanup:498 - TreeSearch cleanup completed
+2025-07-05 19:42:52 | INFO     | core.integration.ml_master:cleanup:397 - ML-Master cleanup completed
+2025-07-05 19:42:52 | INFO     | __main__:main:385 - Task completed successfully!
