@@ -17,10 +17,7 @@ ML Master is a novel AI-for-AI (AI4AI) framework that seamlessly integrates expl
 
 This project is based on the research paper **"ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning"** (arXiv:2506.16499v1). The framework implements the paper's key innovation: seamless integration of exploration and reasoning through adaptive memory mechanisms.
 
-> **Paper**: [ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning](https://arxiv.org/abs/2506.16499)  
-> **Authors**: [Authors]  
-> **Conference**: [Conference]  
-> **Year**: 2024
+> **Paper**: [ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning](https://arxiv.org/abs/2506.16499)
 
 ## Why ML Master is Better Than Regular GPT
 
@@ -54,13 +51,12 @@ This project is based on the research paper **"ML-Master: Towards AI-for-AI via 
 - MCTS-inspired tree search for optimal solution exploration
 - Steerable reasoning with adaptive memory integration
 - Parallel execution across multiple workers
-- Self-verification and validation mechanisms
-
+- Self-verification and validation mechanisms 
 ## Architecture
 
 ```
 ML-Master/
-├── main.py                 # Main entry point and example usage
+├── main.py                 # Main entry point and CLI interface
 ├── core/                   # Core framework components
 │   ├── exploration/        # Multi-trajectory exploration module
 │   ├── reasoning/         # Steerable reasoning module
@@ -86,11 +82,34 @@ pip install -r requirements.txt
 # Set up environment variables
 export AZURE_OPENAI_API_KEY="your-api-key"
 export AZURE_OPENAI_ENDPOINT="your-endpoint"
+export AZURE_OPENAI_MODEL="your-model-name"
 ```
 
-### Quick Start
+### Conversational Bot (Recommended)
 
-The easiest way to get started is using the main.py script:
+The easiest way to interact with ML-Master is through the conversational bot:
+
+```bash
+# Start the interactive chat bot
+python chat_bot.py
+
+# Start with custom settings
+python chat_bot.py --user-name "Alice" --debug
+
+# Run demo to see examples
+python demo_chat.py
+```
+
+The conversational bot provides:
+- Natural language interaction
+- Automatic content type detection
+- Conversation history
+- Framework statistics
+- Special commands for different tasks
+
+### Command Line Interface
+
+For programmatic usage, use the main.py script:
 
 ```bash
 # Generate code
