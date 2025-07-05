@@ -185,58 +185,15 @@ def factorial(n):
 ```bash
 pip install -r requirements.txt
 ```
-
-## Usage
-```python
-from ml_project import Model
-model = Model()
-model.train(data)
-```
-
-## API Documentation
-- `Model.train(data)`: Train the model
-- `Model.predict(input)`: Make predictions
-```
-
-### Structured Data Generation
-```json
-{
-  "database": {
-    "host": "localhost",
-    "port": 5432,
-    "name": "myapp",
-    "user": "admin"
-  },
-  "api": {
-    "endpoints": ["/users", "/data", "/predict"],
-    "rate_limit": 1000
-  },
-  "security": {
-    "jwt_secret": "your-secret-key",
-    "cors_origins": ["http://localhost:3000"]
-  }
-}
-```
-
 ## Technical Stack
 
 - **Language**: Python 3.9+
-- **LLM Integration**: Azure OpenAI (GPT-4, GPT-3.5), DeepSeek-R1
+- **LLM Integration**: Azure OpenAI
 - **Content Processing**: Syntax validation, formatting, schema validation
 - **Parallel Processing**: Multiprocessing, AsyncIO
 - **Data Storage**: SQLite, JSON
 - **Testing**: pytest, unittest
 - **Monitoring**: Logging, Metrics collection
-
-## Performance Metrics
-
-| Metric | Value | Benchmark |
-|--------|-------|-----------|
-| **Medal Rate** | 29.3% average | MLE-Bench |
-| **Valid Submissions** | 93.3% | MLE-Bench |
-| **Performance** | 44.9% above median | MLE-Bench |
-| **Time Efficiency** | 12 hours maximum | MLE-Bench |
-| **Content Quality** | Multi-type validation | Internal |
 
 ## Success Criteria
 
@@ -289,11 +246,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use ML Master in your research, please cite the original paper:
 
 ```bibtex
-@article{mlmaster2024,
-  title={ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning},
-  author={[Authors]},
-  journal={arXiv preprint arXiv:2506.16499},
-  year={2024}
+@misc{liu2025mlmasteraiforaiintegrationexploration,
+      title={ML-Master: Towards AI-for-AI via Integration of Exploration and Reasoning}, 
+      author={Zexi Liu and Yuzhu Cai and Xinyu Zhu and Yujie Zheng and Runkun Chen and Ying Wen and Yanfeng Wang and Weinan E and Siheng Chen},
+      year={2025},
+      eprint={2506.16499},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.16499}, 
 }
 ```
 
